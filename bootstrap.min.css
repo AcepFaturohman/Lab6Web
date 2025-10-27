@@ -1,0 +1,77 @@
+/* Latar halaman dan tipografi */
+.bg-page { background: #f2f2f2; }
+body { color: #333; }
+
+/* Brand area */
+.brandbar { background: #ffffff; border-bottom: 1px solid #e5e5e5; }
+.brandtitle {
+  font-size: 28px; font-weight: 700; margin: 16px 0;
+  color: #b7b7b7; letter-spacing: .2px;
+}
+
+/* Navbar biru seperti contoh */
+.navblue { background: #1e66b2; }
+.navblue .nav-link { padding: .55rem .9rem; }
+.navblue .nav-link.active,
+.navblue .nav-link:hover { background: #155a9a; }
+
+/* Panel umum (kotak putih dengan border halus) */
+.panel {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.02);
+}
+.panel-hero { padding: 26px; background: #eee; border-color: #dcdcdc; }
+.panel-content { padding: 22px; margin-top: 16px; }
+
+/* Divider tipis */
+.soft { border: 0; border-top: 1px solid #ececec; }
+
+/* Circle 120x120 dengan teks tengah */
+.circle {
+  width: 120px; height: 120px; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 600; color: #fff; margin-bottom: .5rem;
+}
+.bg-orange { background:#de7d2a; }
+.bg-blue   { background:#3d6fe3; }
+.bg-teal   { background:#66dbcf; color:#fff; }
+
+/* Tombol abu-abu kecil seperti contoh */
+.btn-ghost {
+  border: 1px solid #cfcfcf !important;
+  color: #555 !important;
+  background: #f2f2f2 !important;
+  padding: .35rem .7rem !important;
+}
+
+/* Thumbnail 150x150 hijau-abu */
+.thumb{
+  width:150px; height:150px; background:#7b8a70; color:#fff;
+  display:flex; align-items:center; justify-content:center;
+  border-radius:6px; font-weight:600;
+}
+
+/* Sidebar Widget */
+.widget { border:1px solid #e3e3e3; border-radius:3px; background:#fff; }
+.widget-header{
+  background:#1e66b2; color:#fff; font-weight:600; padding:.6rem .9rem;
+  border-bottom:1px solid #1b5da4;
+}
+.widget-item{
+  padding:.55rem .9rem; border-bottom:1px solid #efefef; background:#fff;
+}
+.widget-item:last-child{ border-bottom:0; }
+.widget-link{ text-decoration:none; color:#3b3b3b; }
+.widget-link:hover{ text-decoration:underline; }
+
+/* Footer */
+.site-footer{
+  background:#0f0f0f; padding:14px 0; margin-top:20px; border-top:1px solid #080808;
+}
+
+/* Responsif halus */
+@media (max-width: 575.98px){
+  .thumb{ width:120px; height:120px; }
+}
